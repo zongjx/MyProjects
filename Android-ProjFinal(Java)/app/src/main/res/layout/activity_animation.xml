@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pic1">
+
+    <TextView
+        android:id="@+id/text1_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:text="TM"
+        android:textColor="@color/colorWhite"
+        android:textSize="180sp"/>
+
+    <TextView
+        android:id="@+id/text2_animation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1_animation"
+        android:layout_marginTop="40dp"
+        android:text="no perfect individual        only a perfect team"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"/>
+
+    <!--
+    <ImageButton
+        android:id="@+id/enter_animation"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2_animation"
+        android:layout_marginTop="60dp"/>-->
+
+
+</android.support.constraint.ConstraintLayout>

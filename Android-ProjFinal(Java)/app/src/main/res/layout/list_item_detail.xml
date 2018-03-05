@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    app:cardCornerRadius="11dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/pic5_old">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/scroll">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@mipmap/title"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:scaleType="centerCrop"
+                    android:text="@string/app_name"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@+id/fold"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/teammates"
+                    android:layout_below="@+id/content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@mipmap/teammates"/>
+
+                <ListView
+                    android:id="@+id/name_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/teammates"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:divider="#00000000"
+                    android:dividerHeight="10dp"/>
+
+                <ImageView
+                    android:id="@+id/fold"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@mipmap/less"/>
+
+                <ImageView
+                    android:id="@+id/unfold"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@mipmap/more_unfold"/>
+
+                <ImageView
+                    android:id="@+id/joinBt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_below="@+id/name_list"
+                    android:src="@mipmap/join"/>
+
+                <ImageView
+                    android:id="@+id/quitBt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_below="@+id/name_list"
+                    android:src="@mipmap/quit"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
