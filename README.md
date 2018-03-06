@@ -1,7 +1,15 @@
-# MyProjects
-Android-ProjFinal(Java)  ��������  ��׿��Ŀ��У԰���ϵͳ��
-Android-ProjMid(Java)  ��������  ��׿��Ŀ����������ʵ䣩
-Cloud Computing(Java)  ��������  �Ƽ�����Ŀ��KNN�ֲ�ʽ�������
-Operating System(asm)  ��������  �򵥲���ϵͳ
-Software Design(C++)  ��������  C++����
-Web  ��������  ������վ
+**# MyProjects**  
+Android-ProjFinal(Java)  ————  安卓项目（校园组队系统）  
+Android-ProjMid(Java)  ————  安卓项目（三国人物词典）  
+Cloud Computing(Java)  ————  云计算项目（KNN分布式计算程序）  
+Operating System(asm)  ————  简单操作系统  
+Software Design(C++)  ————  C++程序  
+Web  ————  购物网站  
+
+**安卓项目——校园组队系统**  
+1.实现了用户注册、登录、找回密码的功能。  
+2.实现了个人信息系统与好友系统。  
+3.实现了实时聊天的功能，好友之间可以进行文字聊天交流。  
+4.实现了发布、删除组队信息与通过信息加入组队的功能。  
+5.可以根据关键字对组队信息的搜索。  
+6.搭建了服务器后台数据库进行技术支撑（现在服务器已过期）。  
